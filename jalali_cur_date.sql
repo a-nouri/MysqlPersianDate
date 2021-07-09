@@ -4,5 +4,5 @@ CREATE FUNCTION `get_cur_date`()
     SQL SECURITY DEFINER
 BEGIN
   set @y := DATE_FORMAT(CURDATE(),'%Y%m%d');
-  RETURN miltosham2(@y);
+  RETURN gregorian2Jalali(@y);
 END;
