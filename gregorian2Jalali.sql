@@ -1,4 +1,4 @@
-CREATE FUNCTION `miltosham2`(
+CREATE FUNCTION `gregorian2Jalali`(
         `as_dt` VARCHAR(10)
     )
     RETURNS VARCHAR(10) CHARACTER SET latin1
