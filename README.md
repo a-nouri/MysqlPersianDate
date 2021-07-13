@@ -16,4 +16,4 @@ Payroll ,
 Point of sale ,
 Inventory ,
 Stock managment ,
-Slaughtery ,
+Slaughtery
