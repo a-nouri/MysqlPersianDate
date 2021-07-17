@@ -1,4 +1,3 @@
--- Converted to MySql by Abdollah Nouri
 CREATE FUNCTION `gregorian2Jalali`(
         `as_dt` VARCHAR(10)
     )
@@ -7,6 +6,7 @@ CREATE FUNCTION `gregorian2Jalali`(
     SQL SECURITY DEFINER
     COMMENT ''
 begin
+  -- Converted to MySql by Abdollah Nouri
   DECLARE gy2 INT;
   DECLARE days INT;
   DECLARE gy INT;
