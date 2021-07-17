@@ -1,3 +1,4 @@
+-- Converted to MySql by Abdollah Nouri
 CREATE FUNCTION `gregorian2Jalali`(
         `as_dt` VARCHAR(10)
     )
